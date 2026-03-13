@@ -60,7 +60,6 @@
       box-shadow:none;
     }
 
-    /* HERO */
     .hero{padding:56px 0 18px}
     .hero-grid{
       display:grid;
@@ -84,7 +83,6 @@
     .hero-actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:18px}
     .note{margin-top:12px;color:var(--muted);font-size:13px;font-weight:650}
 
-    /* Cards */
     .card{
       background:rgba(255,255,255,.92);
       border:1px solid var(--line);
@@ -95,7 +93,6 @@
     .card h3{margin:0 0 8px; font-size:16px}
     .card p{margin:0; color:var(--muted); font-size:14px}
 
-    /* Visual hero card */
     .visual{
       position:relative;
       overflow:hidden;
@@ -148,7 +145,6 @@
       max-width:48ch;
     }
 
-    /* Airflow animation */
     .airflow{
       position:absolute; inset:0;
       pointer-events:none;
@@ -194,7 +190,6 @@
       box-shadow:0 0 0 3px rgba(10,61,145,.10);
     }
 
-    /* Plans */
     .price{
       display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;
       margin:8px 0 6px;
@@ -214,7 +209,6 @@
       box-shadow:0 22px 55px rgba(10,61,145,.12);
     }
 
-    /* Contact */
     .contact{display:grid; grid-template-columns:1fr 1fr; gap:14px}
     .biglink{
       display:inline-flex; align-items:center; gap:10px;
@@ -247,7 +241,6 @@
     <div class="wrap">
       <div class="nav">
         <div class="brand">
-          <!-- Put your logo file in the repo root with this exact name -->
           <img src="ZuluTechServices_Tight_Transparent.png" alt="ZuluTech Services logo">
         </div>
         <nav class="navlinks">
@@ -262,7 +255,6 @@
   </header>
 
   <main>
-    <!-- HERO -->
     <section class="hero">
       <div class="wrap">
         <div class="hero-grid">
@@ -273,10 +265,10 @@
             </p>
 
             <div class="pill-row">
-              <span class="pill">Coil Cleaning</span>
-              <span class="pill">Drain Inspection</span>
-              <span class="pill">Filter Replacement</span>
-              <span class="pill">Performance Check</span>
+              <span class="pill">Condenser Coil Cleaning</span>
+              <span class="pill">Exterior Unit Cleaning</span>
+              <span class="pill">Drain Pan Inspection</span>
+              <span class="pill">Interior Coil Deep Cleaning</span>
             </div>
 
             <div class="hero-actions">
@@ -288,9 +280,7 @@
             <div class="note">Pricing is per unit • Service scope depends on access to equipment/components.</div>
           </div>
 
-          <!-- HERO IMAGE CARD -->
           <div class="visual" aria-label="HVAC image">
-            <!-- Replace this image with your own file (same folder): ac-unit.jpg -->
             <img src="ac-unit.jpg" alt="A/C condenser unit">
             <div class="overlay"></div>
             <div class="airflow">
@@ -299,14 +289,13 @@
             <div class="visual-content">
               <div class="tag">Key Biscayne 33149</div>
               <p class="visual-title">Coastal maintenance that protects your investment</p>
-              <p class="visual-sub">Ideal for homes, apartments, and condos—interior and/or exterior components serviced based on accessibility.</p>
+              <p class="visual-sub">Ideal for homes, apartments, and condos—service tailored to accessible components and preventive care.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- WHY -->
     <section id="why">
       <div class="wrap">
         <h2 class="section-title">Why it’s worth doing</h2>
@@ -324,80 +313,98 @@
           </div>
           <div class="card">
             <h3>Prevention</h3>
-            <p>Drain inspection & treatment helps reduce overflow risk and moisture issues.</p>
+            <p>Drain inspection and treatment helps reduce overflow risk and moisture issues.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SERVICES -->
     <section id="services">
       <div class="wrap">
-        <h2 class="section-title">Services</h2>
-        <p class="section-sub">We service accessible interior and/or exterior components depending on property configuration.</p>
+        <h2 class="section-title">What We Do</h2>
+        <p class="section-sub">Preventive maintenance focused on exterior coastal exposure, with interior deep cleaning available as an add-on.</p>
         <div class="grid-2">
           <div class="card">
-            <h3>Coils & Cleaning</h3>
+            <h3>Exterior Preventive Maintenance</h3>
             <ul class="clean">
-              <li><span class="dot"></span><span>Coil cleaning (condenser and/or interior components as accessible)</span></li>
-              <li><span class="dot"></span><span>Exterior cabinet cleaning & debris removal</span></li>
-              <li><span class="dot"></span><span>Before/after photos available upon request</span></li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Drain & Performance</h3>
-            <ul class="clean">
-              <li><span class="dot"></span><span>Drain pan inspection (interior/exterior as applicable)</span></li>
-              <li><span class="dot"></span><span>Condensate treatment (Premium plan)</span></li>
+              <li><span class="dot"></span><span>Condenser coil cleaning</span></li>
+              <li><span class="dot"></span><span>Exterior unit cleaning</span></li>
+              <li><span class="dot"></span><span>Drain pan inspection</span></li>
               <li><span class="dot"></span><span>Airflow performance evaluation</span></li>
             </ul>
           </div>
+          <div class="card">
+            <h3>Interior Deep Cleaning Add-On</h3>
+            <ul class="clean">
+              <li><span class="dot"></span><span>Evaporator coil cleaning</span></li>
+              <li><span class="dot"></span><span>Drain line cleaning</span></li>
+              <li><span class="dot"></span><span>Filter replacement</span></li>
+              <li><span class="dot"></span><span>Interior unit inspection</span></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- PLANS -->
     <section id="plans">
       <div class="wrap">
-        <h2 class="section-title">Plans</h2>
-        <p class="section-sub">Simple pricing. Clear value. <b>Pricing per unit.</b></p>
+        <h2 class="section-title">Services</h2>
+        <p class="section-sub">Coastal preventive maintenance for exterior systems, with interior deep cleaning available as an add-on. <b>Pricing per unit.</b></p>
 
         <div class="grid-2">
           <div class="card">
-            <h3>Basic Service</h3>
+            <h3>Coastal Basic</h3>
+            <p class="small"><b>Exterior Preventive Service</b></p>
             <div class="price">
               <div class="amt">$188</div>
               <div class="per">per unit</div>
             </div>
             <ul class="clean">
-              <li><span class="dot"></span><span>Precision cleaning of accessible components</span></li>
-              <li><span class="dot"></span><span>Coil cleaning</span></li>
+              <li><span class="dot"></span><span>Condenser coil cleaning</span></li>
+              <li><span class="dot"></span><span>Exterior unit cleaning</span></li>
               <li><span class="dot"></span><span>Drain pan inspection</span></li>
               <li><span class="dot"></span><span>Airflow performance evaluation</span></li>
             </ul>
+            <p class="small" style="margin-top:10px;"><b>Service performed on accessible exterior components only.</b></p>
           </div>
 
           <div class="card highlight">
             <div class="badge">Best Value</div>
             <h3>Coastal Premium</h3>
+            <p class="small"><b>Preventive Maintenance Plan</b></p>
             <div class="price">
               <div class="amt">$294</div>
-              <div class="per">per unit</div>
+              <div class="per">per year</div>
             </div>
-            <p class="small" style="margin:6px 0 10px;"><b>Two comprehensive visits annually</b></p>
+            <p class="small" style="margin:6px 0 10px;"><b>Includes 2 visits per year (every 6 months)</b></p>
             <ul class="clean">
-              <li><span class="dot"></span><span>Interior & exterior system cleaning (as accessible)</span></li>
-              <li><span class="dot"></span><span>Drain inspection & treatment</span></li>
-              <li><span class="dot"></span><span>Filter replacement included</span></li>
-              <li><span class="dot"></span><span>Condensate protection tablets</span></li>
+              <li><span class="dot"></span><span>Condenser coil cleaning</span></li>
+              <li><span class="dot"></span><span>Exterior unit cleaning</span></li>
+              <li><span class="dot"></span><span>Drain pan inspection</span></li>
+              <li><span class="dot"></span><span>Airflow performance evaluation</span></li>
               <li><span class="dot"></span><span>Priority scheduling</span></li>
             </ul>
+            <p class="small" style="margin-top:10px;"><b>Recommended for coastal homes.</b></p>
           </div>
+        </div>
+
+        <div class="card" style="margin-top:18px;">
+          <h3>Interior Evaporator Deep Cleaning – Add-On</h3>
+          <div class="price">
+            <div class="amt">$300</div>
+            <div class="per">add-on</div>
+          </div>
+          <ul class="clean">
+            <li><span class="dot"></span><span>Evaporator coil cleaning</span></li>
+            <li><span class="dot"></span><span>Drain line cleaning</span></li>
+            <li><span class="dot"></span><span>Filter replacement</span></li>
+            <li><span class="dot"></span><span>Interior unit inspection</span></li>
+          </ul>
+          <p class="small" style="margin-top:10px;"><b>Interior unit must be accessible.</b></p>
         </div>
       </div>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact">
       <div class="wrap">
         <h2 class="section-title">Contact</h2>
@@ -417,7 +424,6 @@
         </div>
       </div>
     </section>
-
   </main>
 
   <footer>
